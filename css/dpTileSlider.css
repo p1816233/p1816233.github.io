@@ -519,7 +519,14 @@
     -moz-transition: background-color 0.5s, border-color 0.5s;
     transition: background-color 0.5s, border-color 0.5s;
 }
+@media screen and (max-width: 1279px) {
+        #dp-slider {
+        margin: 0 auto;
+        float: none;
+        display: block;
 
+    }
+}
 
 
 

@@ -204,7 +204,7 @@ button.js-search-now {
 }
 
 .fancybox {
-    width: 49%;
+    width: 610px;
     float: left;
     border: 10px solid black;
     border-radius: 10px;
@@ -515,8 +515,10 @@ strong {
         box-shadow: none;
     }
     .fancybox {
-        width: 100%;
-        float: left;
+        width: 630px;
+        margin: 0 auto;
+        float: none;
+        display: block;
 
     }
 
