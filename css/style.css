@@ -214,10 +214,10 @@ button.js-search-now {
 }
 
 .fancyimg {
-    width: 190px;
-    height: 150px;
-    margin: 0 auto;
 
+    width: 185px;
+    height: 145px;
+    display: inline-block;
 }
 
 
@@ -517,15 +517,13 @@ strong {
     .fancybox {
         width: 100%;
         float: left;
-        padding: 20px;
-
 
     }
 
     .fancyimg {
-        width: 190px;
-        height: 145px;
-        display: inline-block;
+        width: 180px;
+        height: 138px;
+        padding: 5px;
     }
 
 }
