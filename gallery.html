@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab|Dancing+Script" rel="stylesheet">
     <link rel="stylesheet" href="css/dpTileSlider.css" />
     <link rel="stylesheet" href="css/dpTileSlider.animation.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
     <!-- js -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
@@ -23,6 +25,7 @@
     </script>
     <script src="js/dpTileSlider.js"></script>
     <script src="js/dpTileSlider.settings.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
 </head>
 
 <body>
@@ -51,23 +54,55 @@
         </header>
 
         <div class="blank">
-
+            <h1>Gallery</h1>
         </div>
-        <section class="home">
-            <figure class="z">
-                <img src="image/home.jpg" alt="a picture of a person paragliding surfing" class="homep">
-            </figure>
-        </section>
 
-        <section class="home zz">
-            <h1>Who are we?</h1>
-            <p>The Travel Pros</p>
-            <p>At Ping An Travel Pte. Ltd., we always aim to fulfill our customer's request . Founded in 2015, Ping An Travel Pte. Ltd. is made up of a group of well-trained and passionate travel agents, who is specialized in finding the best deals at the fastest rates for each and every client. With our vendor knowledge ,industry experience and well maintained industry relationships we would be able to provide you with a travel experience surpasses your expectations. </p>
+        <div id="dp-slider">
+            <div data-anim="random">
+                <img src="image/sky.jpg" alt="Image" role='banner'>
+            </div>
+            <div data-anim="split">
+                <img src="image/blue.jpg" alt="Image" role='banner'>
+            </div>
+            <div data-anim="rotate3D">
+                <img src="image/me.jpg" alt="Image" role='banner'>
+            </div>
+            <div data-anim="random">
+                <img src="image/hainan.jpg" alt="Image" role='banner'>
+            </div>
+            <div data-anim="split">
+                <img src="image/pattaya.jpg" alt="Image" role='banner'>
+            </div>
+            <div data-anim="rotate3D">
+                <img src="image/huahin.jpg" alt="Image" role='banner'>
+            </div>
+        </div>
+        <!-- End slider -->
+        <div class="fancybox">
+            <a href="image/blue.jpg" data-fancybox="gallery" data-caption="bluetears">
+		<img src="image/blue.jpg" width="200" alt="" class="fancyimg" />
+	</a>
 
-            <p>Whether planning your favorite vacation or just a tour around the amazing world, we have it all covered. Whatever your traveling demands are, we're here to help. Give us a call today to receive a free and meaningful consultation from the best agents in the industry to clear all your doubts.</p>
-        </section>
+            <a href="image/sky.jpg" data-fancybox="gallery" data-caption="skymirror">
+		<img src="image/sky.jpg" width="200" alt="" class="fancyimg" />
+	</a>
+
+            <a href="image/me.jpg" data-fancybox="gallery" data-caption="me">
+		<img src="image/me.jpg" width="200" alt=""  class="fancyimg" />
+	</a>
+            <a href="image/hainan.jpg" data-fancybox="gallery" data-caption="hainan">
+		<img src="image/hainan.jpg" width="200" alt=""  class="fancyimg" />
+	</a>
+            <a href="image/pattaya.jpg" data-fancybox="gallery" data-caption="pattaya">
+		<img src="image/pattaya.jpg" width="200" alt=""  class="fancyimg" />
+	</a>
+            <a href="image/huahin.jpg" data-fancybox="gallery" data-caption="huahin">
+		<img src="image/huahin.jpg" width="200" alt=""  class="fancyimg" />
+	</a>
+        </div>
 
         <div class="blank1"></div>
+
 
         <footer>
             <small>Contact us @</small>
@@ -82,7 +117,7 @@
                     <a href="https://www.snapchat.com" class="fa fa-snapchat-ghost" target="_blank"></a>
                     <a href="https://www.youtube.com" class="fa fa-youtube" target="_blank"></a>
                 </figure>
-                <p class="cc">Copyright &copy;2018 -Ping An Travel Pte. Ltd. All rights reserved. &nbsp;&nbsp;&nbsp;All image are from https://www.pexels.com/</p>
+                <p class="cc">Copyright &copy;2018 -Ping An Travel Pte. Ltd. All rights reserved.&nbsp;&nbsp;&nbsp;All image are from https://www.pexels.com/</p>
             </div>
         </footer>
     </div>
