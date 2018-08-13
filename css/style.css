@@ -311,11 +311,7 @@ strong {
 }
 
 
-@media screen and (max-width: 463px) {
-    .fancybox img {
-        display: block;
-    }
-}
+
 
 @media screen and (max-width: 480px) {
     nav {
@@ -515,10 +511,9 @@ strong {
         box-shadow: none;
     }
     .fancybox {
-        width: 630px;
-        margin: 0 auto;
-        float: none;
-        display: block;
+        width: 100%;
+        float: left;
+
 
     }
 
@@ -571,4 +566,11 @@ strong {
         height: 75px;
     }
 
+}
+
+@media screen and (max-width: 463px) {
+    .fancybox img {
+        display: block;
+        margin: 0 auto;
+    }
 }
