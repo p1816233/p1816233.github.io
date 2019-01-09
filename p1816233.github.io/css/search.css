@@ -1,0 +1,25 @@
+#dialog-js-search {
+	max-width: 800px;
+}
+
+
+#dialog-js-search div.loading{
+	min-width: 400px;
+	min-height: 200px;
+	background-image: url('loading.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#dialog-js-search div.message{
+	min-width: 400px;
+	min-height: 200px;	
+}
+
+#dialog-js-search .js-search-found-text{
+	background-color: yellow;
+}
+
+#dialog-js-search div.message div.js-search-result-block{
+	margin-bottom: 10px;
+}

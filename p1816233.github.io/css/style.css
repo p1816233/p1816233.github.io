@@ -1,0 +1,576 @@
+/* this is for Yang Zhenhua..... */
+
+* {
+    box-sizing: border-box;
+}
+
+/* css for body*/
+
+body {
+    max-width: 1280px;
+    padding: 10px;
+    background: url(../image/10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    background-attachment: fixed;
+}
+
+/* css for body*/
+
+/* css for container */
+
+.container {
+    min-height: 500px;
+}
+
+/* end css for container*/
+
+/* css for header */
+
+header {
+    width: 100%;
+    clear: both;
+    min-height: 120px;
+}
+
+.ping {
+    width: 35%;
+    float: left;
+    text-align: center;
+    min-height: 120px;
+
+}
+
+.logo {
+    width: 100%;
+    height: 120px;
+    float: left;
+
+}
+
+nav {
+    margin: 0 auto;
+    width: 65%;
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+    background: #ffffff99;
+}
+
+
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 35px;
+    color: #081F41;
+    font-family: 'Dancing Script', cursive;
+}
+
+li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* end css for header */
+
+h1 {
+    text-align: center;
+    font-family: 'Arbutus Slab', serif;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* css for footer */
+
+footer {
+    width: 100%;
+    clear: both;
+    border-top: 1px solid #000000;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff99;
+    background: #00000050;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.icon {
+    width: 100%
+}
+
+.fa1 {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: #ffffff99;
+}
+
+/* end css for footer */
+
+/* css for index.html */
+
+.home {
+    width: 50%;
+    float: left;
+    display: table;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #081F41;
+
+    box-shadow: 10px 5px 0px 2px
+}
+
+.zz {
+    background: #ffffff99;
+    padding: 20px;
+    border-left: solid black 2px;
+    height: 680px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.z {
+    opacity: 0.9;
+    border-right: solid black 2px;
+    height: 680px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.homep {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 680px;
+}
+
+/* css for index.html */
+
+/* css for the serives.html  search icon and word display */
+
+form.search-form {
+    text-align: center;
+}
+
+input.js-search-text {
+    height: 50px;
+}
+
+button.js-search-now {
+    height: 50px;
+    width: 50px;
+}
+
+.modalp {
+    text-align: left;
+}
+
+.modalp strong {
+    color: red;
+}
+
+.modalh1 {
+    font-size: 40px;
+}
+
+.contactmodal {
+    font-size: 40px;
+    font-family: cursive;
+    text-align: center;
+    text-decoration: none;
+}
+
+.modalemail {
+    text-decoration: none;
+    color: aqua;
+}
+
+.fancybox {
+    width: 610px;
+    float: left;
+    border: 10px solid black;
+    border-radius: 10px;
+    min-height: 500px;
+    padding: 9px;
+    background: #ffffff99
+}
+
+.fancyimg {
+
+    width: 185px;
+    height: 145px;
+    display: inline-block;
+}
+
+
+/* end css for the serives.html search icon and word display */
+
+/* css for the contact.html page*/
+
+.contact {
+    width: 50%;
+    float: left;
+    height: 580px;
+}
+
+.contact11 {
+    width: 50%;
+    float: left;
+    display: table;
+    padding: 40px;
+    padding-top: 80px;
+    background: #ffffff99;
+    height: 580px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+
+.c3,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #ffffff;
+}
+
+.mm {
+    min-height: 190px;
+}
+
+.contactx {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    height: 580px;
+}
+
+
+/* end css for the contact.html page*/
+
+strong {
+    font-size: 30px;
+}
+
+.cc {
+    font-size: 15px;
+}
+
+.coming {
+    min-height: 300px;
+    font-family: 'Dancing Script';
+    font-size: 50px;
+}
+
+
+.blank {
+    height: 100px;
+}
+
+.blank1 {
+    height: 50px;
+    clear: both;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    nav {
+        background: none;
+    }
+    .logo {
+        width: 260px;
+        height: 120px;
+        float: left;
+    }
+    nav.sitenavigation {
+        width: 40;
+        height: 40;
+
+    }
+    nav.sitenavigation ul {
+        font-size: 2px;
+        display: none;
+        background: black;
+        opacity: 0.7;
+        z-index: 99;
+        position: relative;
+        top: 40px;
+
+    }
+    nav.sitenavigation a:link {
+        text-decoration: none;
+        color: white;
+    }
+    nav.sitenavigation a:visited {
+        color: #bdccd4;
+    }
+    nav.sitenavigation a:hover,
+    nav.sitenavigation a:focus {
+        color: black;
+        background-color: white;
+    }
+    nav.sitenavigation a:active {
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+
+    nav.sitenavigation:hover ul {
+
+        display: block;
+    }
+
+    nav.sitenavigation:hover li a {
+
+        display: block;
+        padding: 8px 30px;
+    }
+    .navigation-menu-button img {
+        float: right;
+        width: 40px;
+        padding: 0;
+
+    }
+    .fa {
+        padding: 0px;
+    }
+
+    .blank {
+        height: 40px;
+    }
+    .z {
+        z-index: 2;
+        display: none;
+    }
+
+    .zz {
+        width: 100%;
+        border: none;
+        font-size: 20px;
+
+    }
+    .zz {
+        border-radius: 10px;
+    }
+    .home {
+        box-shadow: none;
+    }
+
+    .eng {
+        width: 100%;
+        float: left;
+        background: #ffffff99;
+        border-radius: 10px;
+    }
+    figure {
+        padding-left: 30px;
+    }
+
+    .contact11 {
+        display: none;
+
+    }
+
+    .contact {
+        width: 100%;
+    }
+    .contactx {
+        border-radius: 10px;
+    }
+
+
+}
+
+.pack {
+    width: 100%;
+    float: right;
+    min-height: 550px;
+    background: #ffffff99;
+    border-radius: 10px;
+}
+
+.pack2 {
+    text-align: center;
+    width: 80%;
+    float: left;
+    margin: 0 10%;
+    height: 400px;
+}
+
+
+
+.pack2 p {
+    font-size: 30px;
+}
+
+.pack2 figure img {
+    height: 175px;
+}
+
+@media screen and (min-width: 481px) {
+
+    nav.sitenavigation img {
+        display: none;
+    }
+    .eng {
+        width: 30%;
+        border-right: 1px solid #000000;
+        float: left;
+        padding: 10px;
+        min-height: 200px;
+        background: #ffffff99;
+        border-radius: 10px;
+    }
+
+    .pack {
+        width: 70%;
+        float: right;
+        min-height: 550px;
+        background: #ffffff99;
+        border-radius: 10px;
+    }
+    .pack2 {
+        text-align: center;
+        width: 40%;
+        float: left;
+        margin: 0 5%;
+        height: 400px;
+    }
+    .pack2 p {
+        font-size: 30px;
+    }
+
+
+    figure {
+        padding: 0px;
+        margin: 0px;
+    }
+    .pack2 figure img {
+        height: 250px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1279px) {
+    .z {
+        z-index: 2;
+        display: none;
+    }
+
+    .zz {
+        width: 100%;
+        border: none;
+        font-size: 30px;
+        border-radius: 10px;
+
+    }
+    section.home {
+        box-shadow: none;
+    }
+    .fancybox {
+        width: 100%;
+        float: left;
+
+
+    }
+
+    .fancyimg {
+        width: 180px;
+        height: 138px;
+        padding: 5px;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .pack2 figure img {
+        height: 155px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .pack2 figure img {
+        height: 135px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .pack2 figure img {
+        height: 135px;
+    }
+
+}
+
+@media screen and (max-width: 370px) {
+    .pack2 figure img {
+        height: 115px;
+    }
+
+}
+
+@media screen and (max-width: 340px) {
+    .pack2 figure img {
+        height: 95px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 310px) {
+    .pack2 figure img {
+        height: 75px;
+    }
+
+}
+
+@media screen and (max-width: 463px) {
+    .fancybox img {
+        display: block;
+        margin: 0 auto;
+    }
+}
