@@ -8,6 +8,12 @@ body {
   box-sizing: border-box;
 }
 
+.container {
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
 .row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
